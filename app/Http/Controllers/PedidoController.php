@@ -16,15 +16,6 @@ class PedidoController extends Controller
     return view('pedidos.crear', compact('pedidos'));
 }
 
-    // public function index()
-    // {
-    //     // Obtenemos todos los pedidos de la base de datos
-    //     $pedidos = Pedido::all();
-    
-    //     // Retornamos la vista con los datos de los pedidos
-    //     return view('pedidos', compact('pedidos'));
-    // }
-
     public function confirmar(Request $request)
     {
         $validatedData = $request->validate([

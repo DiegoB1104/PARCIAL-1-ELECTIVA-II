@@ -21,14 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pedidos</a>
-                    </li>
-                    
+                <ul class="navbar-nav">        
                 </ul>
             </div>
         </div>
@@ -39,12 +32,7 @@
         @yield('content')
     </div>
 
-    {{-- Pie de página --}}
-    <footer class="bg-light text-center py-4 mt-4">
-        <div class="container">
-            <p class="mb-0">&copy; {{ date('Y') }} Sistema de Pedidos de Medicamentos. Todos los derechos reservados.</p>
-        </div>
-    </footer>
+   
 
     {{-- Bootstrap JS y dependencias (si estás utilizando Bootstrap) --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
